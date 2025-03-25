@@ -111,7 +111,7 @@ function MainPage({ onAddToCart, cartItems }) {
    
   };
   const handleQuantityChange = (product, change) => {
-    const newQuantity = Math.max((quantities[product.title] || 1) + change, 0);
+    const newQuantity = Math.max((quantities[product.title] || 1) + change, 1);
     setQuantities((prev) => ({ ...prev, [product.title]: newQuantity }));
     handleAddToCart(product, newQuantity);
   };

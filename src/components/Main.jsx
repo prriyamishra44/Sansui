@@ -8,7 +8,7 @@ function Main({ onAddToCart, cartItems }) {
     <div>
       <Navbar cartItemCount={cartItems.length} />
       <div>
-      <MainPage onAddToCart={onAddToCart} />
+      <MainPage onAddToCart={onAddToCart} cartItems={cartItems} />
       </div>
     </div>
   );
