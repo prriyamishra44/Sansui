@@ -1,0 +1,62 @@
+.aboutDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%; /* Adjusted width for responsiveness */
+    max-width: 950px;
+    padding: 40px;
+    margin: 50px auto; /* Center the about section */
+    background-color: lemonchiffon;
+    border-radius: 10px; /* Added slight rounding for a modern look */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Added a subtle shadow */
+}
+
+.aboutDiv h2 {
+    color: #0b0b0b;
+    font-size: 32px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 20px;
+    text-align: center; /* Center the heading */
+}
+
+.aboutDiv h3 {
+    color: #0b0b0b;
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 15px;
+    text-align: center; /* Center the subheading */
+}
+
+.aboutDiv p {
+    font-size: 18px;
+    color: #272626;
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    text-align: justify;
+    letter-spacing: 1px; /* Adjusted for readability */
+    line-height: 1.6; /* Improved line spacing */
+    margin-bottom: 20px;
+}
+
+.aboutDiv ul {
+    font-size: 18px;
+    color: #272626;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 20px;
+    line-height: 1.6;
+}
+
+.para {
+    text-indent: 60px;
+    text-align: justify;
+    letter-spacing: 1px;
+    line-height: 1.6;
+}
+
+.aboutDiv strong {
+    color: #272626;
+}
+
+.aboutDiv ul li {
+    margin-bottom: 10px; /* Added space between list items */
+}
